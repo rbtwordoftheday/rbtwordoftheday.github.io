@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: black url("bg.jpg") center top no-repeat;
+  color: white;
+}
+.is-typed span.typed {
+  color: white;
+}
+
+.is-typed {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.is-typed span.typed {
+  color: white;
+}
+
+.is-typed span.cursor {
+  background-color: white;
+}
+input {
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#app {
+  margin: 0;
+  padding: 0;
+}
+
+.reward:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
